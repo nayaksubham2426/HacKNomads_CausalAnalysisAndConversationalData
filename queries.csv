@@ -1,0 +1,3 @@
+mysql>CREATE DATABASE causal_chat;
+mysql>USE causal_chat;
+mysql>CREATE TABLE conversation_log(Query_Id INT AUTO_INCREMENT PRIMARY KEY,Query TEXT,Query_Category VARCHAR(255),System_Output JSON,Remarks VARCHAR(200));
